@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "dropboss:bosskillitem"
+    },
+    "title": {
+      "text": "倒したよ！！！！！！！！！！"
+    },
+    "description": {
+      "text": "もうあんな不便にはなりたくない"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dropboss:bosskillitem"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}
