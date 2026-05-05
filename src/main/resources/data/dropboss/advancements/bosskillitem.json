@@ -4,10 +4,10 @@
       "item": "dropboss:bosskillitem"
     },
     "title": {
-      "text": "倒したよ！！！！！！！！！！"
+      "translate": "dropboss.clear"
     },
     "description": {
-      "text": "もうあんな不便にはなりたくない"
+      "translate": "dropboss.clear.desc"
     },
     "frame": "task",
     "show_toast": true,
